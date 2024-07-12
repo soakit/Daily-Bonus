@@ -4,7 +4,7 @@
 # @Author   : Jckling
 
 import os
-
+import json
 import requests
 
 # cookies
@@ -51,7 +51,7 @@ def check_in():
             ]
         else:
             msg += [
-                {"name": "签到信息", "value": "签到失败"}
+                {"name": "签到信息", "value": "签到失败" + json.dumps(obj)}
             ]
     except Exception as e:
         msg += [{"name": "check_in error", "value": e}]
