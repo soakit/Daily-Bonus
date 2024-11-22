@@ -19,19 +19,18 @@ msg = []
 HEADERS = {
     "Accept": "*/*",
     # "Accept-Encoding": "gzip, deflate, br, zstd",
-    "Accept-Language": "en,zh-CN;q=0.9,zh;q=0.8,ja;q=0.7,zh-TW;q=0.6",
-    "cache-control": "max-age=0",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
     "Cookie": COOKIES,
     "pragma": "no-cache",
     "Referer": "https://www.v2ex.com/",
-    "sec-ch-ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+    "sec-ch-ua": '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
     "sec-ch-ua-mobile": "?0",
-    "Sec-Ch-Ua-Platform": "Windows",
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Sec-Ch-Ua-Platform": "macOS",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "cross-site",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
 }
 
 
